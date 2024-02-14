@@ -1,0 +1,1199 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+#sideBar{
+    margin-bottom: 100px;
+    height: 500px;
+    width: 3rem;
+    background-color: rgb(204, 179, 253);
+   
+  
+
+}
+#sideBar p{
+    margin: 2px;
+    padding: 4px;
+}
+#Das{
+    font-size: smaller;
+    font-weight: 100;
+}
+#Page{
+    font-size:smaller;
+    font-weight: 100;
+}
+.bardas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
+}
+.bars{
+    margin: 5px;
+}
+.barpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.setting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#chalkboard-user{
+    font-size: 20px;
+    font-weight: 700;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+   
+}
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px;
+    padding: 5px;
+    height: 40px;
+
+    box-sizing: border-box;
+    border-bottom: 1px solid gainsboro;
+}
+#squar{
+    font-size: 20px;
+    font-weight: lighter;
+}
+#dash{
+  margin: 5px;
+}
+h3{
+    padding: 10px;
+    margin: 5px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+
+}
+.student{
+    height: 80px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    background-color: #89b8ef;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+.student label,h2{
+    margin: 10px;
+}
+.student h2{
+   font-size: 20px;
+   font-weight: 800;
+}
+.employee{
+    height: 80px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    background-color: #638eae;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+.employee label,h2{
+    margin: 7px;
+}
+.employee h2{
+    font-size: 20px;
+   font-weight: 800;
+}
+.fee{
+    height: 80px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    background-color: #6786b8;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+.fee label{
+    margin: 7px;
+}
+.paid{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 60%;
+   
+}
+.paid h2{
+    font-size: 20px;
+   font-weight: 800;
+}
+.passed{
+    height: 80px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items:flex-start;
+    background-color: #5e80ba;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+.passed label{
+    margin: 7px;
+    padding: 0px;
+}
+.pass{
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   gap: 60%;
+   
+}
+.pass h2{
+    font-size: 20px;
+    font-weight: 800;
+ }
+ 
+ .searchBox{
+    height:750px;
+    width: 98.5%;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column; */
+    background-color: #94beed;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 10px;
+ }
+ #down{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+
+ }
+ #text{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 10px;
+    gap: 15px;
+ }
+ .inputBox{
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    margin: 10px;
+ }
+ .inputBox input{
+    box-sizing: border-box;
+    border: 2px solid rgb(190, 186, 186);
+    border-radius: 10px;
+    height: 30px;
+    width: 280px;
+ }
+ .inputBox input::placeholder{
+    padding: 10px;
+    margin: 5px;
+ }
+ #searchBtn{
+    width: 150px;
+    color: rgb(53, 100, 232);
+    font-weight: 800;
+ }
+
+ .history{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    position:static;
+    margin: 10px;
+    padding: 5px;
+    background-color:rgb(231, 214, 240);
+    border-radius: 10px;
+    gap: 130px;
+    
+ }
+ .historyBox{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position:inherit;
+    padding: 5px;
+    margin: 10px;
+    gap: 120px;
+ }
+ .searchBox hr{
+    margin: 40px;
+    margin-top: 15px;
+    border: 1px solid rgb(133, 130, 130);
+ }
+ 
+ .searchName{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 15px;
+    gap: 15px;
+ }
+ .searchName input{
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 30px;
+    width: 280px;
+    padding: 10px;
+ }
+ .searchName i{
+    font-size: 20px;
+    font-weight: 800;
+ }
+.paymentHistory{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(231, 214, 240);
+    border-radius: 10px;
+    gap: 130px;
+}
+.box2{
+    height: 100%;
+    width: 98%;
+    margin-top: 8%;
+}
+#info{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: larger;
+    font-weight: bolder;
+    height: 20px;
+    width: 20px;
+    text-align: end;
+}
+.Name{
+    margin-left:25px;
+}
+
+.Class{
+    margin-left:25px;
+}
+.Father{
+    margin-left:25px;
+}
+.Teacher{
+    margin-left:25px;
+}
+.Date{
+    margin-left:25px;
+}
+.Roll{
+    margin-left:25px;
+}
+.DepositedBy{
+    margin:10px;
+}
+
+.sideBar2{
+    height: 750px;
+    width: 150px;
+    box-sizing: border-box;
+    background-color: rgb(204, 179, 253) ;
+    margin-top: 40%;
+}
+.sidebar3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.topBar{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 60px;
+    margin: 7px;
+    padding: 5px;
+}
+.sideBar2 hr{
+    border: 1px solid grey;
+}
+.dashboards{
+    margin: 5px;
+    padding: 5px;
+}
+.dashboards h5{
+    font-weight: lighter;
+    margin: 5px;
+}
+.dashboards p i{
+    margin: 5px;
+    font-size: small;
+}
+.Main{
+    box-sizing: border-box;
+    background-color: #c2d6ed;
+    height: 20px;
+    width: 130px;
+    text-align:left;
+    margin: 5px;
+    border-radius: 10px;
+}
+.Main p i{
+    padding: 2px;
+}
+.pages{
+    margin: 5px;
+    padding: 5px;
+}
+
+.pages ul p{
+    font-size: small;
+    font-weight:lighter;
+}
+/* ul li a{
+    display: none;
+    text-decoration: none;
+
+} */
+ul li {
+    display:flex;
+    text-decoration: none;
+    justify-content: center;
+      align-items: center;
+      flex-direction: column; 
+      margin: 5px;
+      color: black;
+      cursor: pointer;
+
+}
+#drop{
+    cursor: pointer;
+    
+}
+
+#drop i{
+    margin: 10px;
+    font-size: medium;
+    cursor: pointer;
+
+}
+.pages p i{
+    margin: 10px;
+    
+}
+#ProSync{
+   text-align: center;
+    padding: 10px;
+    margin-top: 95%;
+    
+
+}
+#ProSync i{
+    color: aqua;
+    padding: 3px;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+.container2{
+    display: none;
+  /* justify-content: space-between;
+    align-items: center;
+    height: 100vh;;
+    width: 99%;
+    margin-top: 10%; */
+}
+.mainContainer{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Box{
+    height: 100px;
+    width: 98%;
+    background-color:#89b8ef ;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+.branch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.branch label{
+    margin: 5px;
+    font-weight:600;
+    font-size: small;
+    color: rgb(71, 69, 69);
+}
+.branch select{
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    width: 180px;
+   padding: 10px;
+   font-weight: 700;
+}
+.registration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.registration label{
+    margin: 5px;
+    font-weight:600;
+    font-size: small;
+    color: rgb(71, 69, 69);
+}
+.registration input{
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    width: 180px;
+   padding: 10px;
+   border: none;
+   
+}
+.serial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.serial label{
+    margin: 5px;
+    font-weight:600;
+    font-size: small;
+    color: rgb(71, 69, 69);
+}
+.serial input{
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    width: 180px;
+   padding: 10px;
+   border: none;
+
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photo label{
+    margin: 5px;
+    font-weight:600;
+    font-size: small;
+    color: rgb(71, 69, 69);
+}
+.photo button{
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    width: 190px;
+   padding: 10px;
+   border: 1px solid red;
+   color: red;
+   font-weight: 600;
+  
+}
+.information{
+    height: 430px;
+    width: 98%;
+    background-color:#89b8ef  ;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.information h4{
+    margin-top: 30px;
+    padding: 10px;
+}
+.inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.fName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.fName label{
+    margin: 5px;
+    font-weight:600;
+    font-size: small;
+    color: rgb(71, 69, 69);
+}
+.fName input{
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+   padding: 10px;
+   border: none;
+}
+.lName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.lName label{
+    margin: 5px;
+    font-weight:600;
+    font-size: small;
+    color: rgb(71, 69, 69);
+}
+.lName input{
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+   padding: 10px;
+   border: none;
+}
+.DOB{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.DOB label{
+    margin: 5px;
+    font-weight:600;
+    font-size: small;
+    color: rgb(71, 69, 69);
+}
+.DOB input{
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+   padding: 10px;
+   border: none;
+}
+.POB{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.POB label{
+    margin: 5px;
+    font-weight:600;
+    font-size: small;
+    color: rgb(71, 69, 69);
+}
+.POB input{
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+   padding: 10px;
+   border: none;
+}
+.Gender{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.Gender label{
+    margin: 5px;
+    font-weight:600;
+    font-size: small;
+    color: rgb(71, 69, 69);
+}
+.Gender input{
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+   padding: 10px;
+   border: none;
+}
+.Caste{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.Caste label{
+    margin: 5px;
+    font-weight:600;
+    font-size: small;
+    color: rgb(71, 69, 69);
+}
+.Caste input{
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+   padding: 10px;
+   border: none;
+}
+.Category{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.Category label{
+    margin: 5px;
+    font-weight:600;
+    font-size: small;
+    color: rgb(71, 69, 69);
+}
+.Category input{
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+   padding: 10px;
+   border: none;
+}
+.bGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.bGroup label{
+    margin: 5px;
+    font-weight:600;
+    font-size: small;
+    color: rgb(71, 69, 69);
+}
+.bGroup input{
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+   padding: 10px;
+   border: none;
+}
+.height{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.height label{
+    margin: 5px;
+    font-weight:600;
+    font-size: small;
+    color: rgb(71, 69, 69);
+}
+.height input{
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+   padding: 10px;
+   border: none;
+}
+.weight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.weight label{
+    margin: 5px;
+    font-weight:600;
+    font-size: small;
+    color: rgb(71, 69, 69);
+}
+.weight input{
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+   padding: 10px;
+   border: none;
+}
+.pInformation{
+    height: 200px;
+    width: 98%;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #89b8ef;
+}
+.pInformation h3{
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(71, 69, 69);
+    padding: 15px;
+    margin: 10px;
+}
+.psInformation{
+    height: 200px;
+    width: 98%;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #89b8ef;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.psInformation h4{
+    margin: 10px;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(71, 69, 69);
+}
+.radio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.paragraph p{
+    font-size: small;
+    font-weight: lighter;
+    margin: 10px;
+    color: rgb(71, 69, 69);
+}
+.paragraph label{
+    font-weight: 600;
+}
+.paragraph input{
+    border: none;
+}
+.radio button{
+   border: 1px solid red;
+   border-radius: 20px;
+   color: red;
+   font-weight: 600;
+   height: 30px;
+   width: 130px;
+    margin: 10px;
+}
+.fees{
+    height: 200px;
+    width: 98%;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #89b8ef;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Radio{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+.Radio p{
+    font-size: medium;
+    font-weight: lighter;
+    margin: 10px;
+    margin-bottom: 8%;
+    color: rgb(71, 69, 69);
+}
+.Radio label{
+    font-weight: 600;
+    margin-top: 1%;
+}
+.Radio input{
+    margin-top: 1.4%;
+    border: none;
+}
+.fees h5{
+    margin: 10px;
+    font-weight: 700;
+    margin-bottom: 5%
+ }
+ .btn{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin: 10px;
+    
+}
+.btn input{
+    height: 30px;
+    width: 130px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(26, 26, 223);
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:1024px){
+    .container{
+        width: 98%;
+        height: 100vh;
+    }
+    .container2{
+        width: 98%;
+        height: 100vh;
+    }
+   
+}
+@media screen and (max-width:1024px){
+    .dashboard{
+        flex-direction: row;
+    }
+    .Text{
+        text-align: center;
+    }
+    .box{
+        flex-direction: column;
+        width: 100%;
+        height: 400px;
+    }
+    .main{
+        width: 100%;
+        height: 100%;
+    }
+    .Qsearc{
+        text-align: center;
+    }
+    .searchBox{
+        width: 100%;
+        height: 950px;
+        flex-direction: column;
+        background-color: #94beed;
+        box-sizing: border-box;
+        border: 2px solid grey;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .inputBox{
+       flex-direction: column;
+
+    }
+    .inputSearch{
+        margin: 10px;
+    }
+    .history{
+        
+        width: 100%x;
+        gap: 25px;
+    }
+    .historyBox{
+        width: 100%x;
+        gap: 23px;
+    }
+     .box2{
+        flex-direction: column;
+        width: 100%;
+        height: 400px;
+     }
+     .feeUpdate{
+        align-items: center;
+     }
+     .paymentHistory{
+        width: 100%x;
+        gap: 25px;
+     }
+     .sideBar2{
+        margin-top: 100%;
+     }
+     .mainContainer{
+        width: 100%;
+        height: 100%;
+     }
+    
+     .Box{
+        flex-direction: column;
+        width: 100%;
+        height: 400px;
+     }
+     .information{
+        width: 100%;
+        height: 1000px;
+        background-color: #94beed;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin: 10px;
+     }
+     
+}
+@media screen and (max-width:925px){
+    .sideBar2{
+        margin-top: 110%;
+     }
+}
+@media screen and (max-width:860px){
+    .sideBar2{
+        margin-top: 125%;
+     }
+}
+@media screen and (max-width:860px){
+    /* .sideBar2{
+        margin-top: 140%;
+     } */
+     .historyBox{
+        width: 100%;
+        gap: 10px;
+        font-size: small;
+        margin-right: 10px;
+    }
+    .history{
+        width: 98%;
+        gap: 15px;
+        font-size: small;
+    }
+    .paymentHistory{
+        width: 98%;
+        gap: 15px;
+        font-size: small;
+    }
+    }
+    @media screen and (max-width:770px){
+        .sideBar2{
+            margin-top: 130%;
+        }
+    }
+     @media screen and (max-width:730px){
+                  .sideBar2{
+                    margin-top: 140%;
+                  }
+                  .historyBox{
+                    width: 98%;
+                    font-size: smaller;
+                  }
+     }
+     @media screen and (max-width:705px){
+        .historyBox{
+            width: 98%;
+            font-size:x-small;
+           font-weight: 600;
+            gap: 2px;
+          }
+     }
+     @media screen and (max-width:665px){
+        .sideBar2{
+            margin-top: 150%;
+          }
+          .history{
+            width: 98%;
+            gap: 10px;
+            font-size: small;
+        }
+        .paymentHistory{
+            width: 98%;
+            gap: 10px;
+            font-size: small;
+        }
+        .psInformation{
+            width: 100%;
+            height:300px ;
+            background-color: #94beed;
+            box-sizing: border-box;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .radio{
+            width: 98%;
+          flex-direction: column;
+        }
+        .paragraph{
+           flex-direction: column;
+           gap: 5px;
+        }
+        .fees{
+            width: 100%;
+            height:300px ;
+            background-color: #94beed;
+            box-sizing: border-box;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .Radio{
+            display: block;
+            align-items: center;justify-content: center;
+            flex-direction: column;
+            padding: 10px;
+            margin-top: 5px;
+            gap: 5px;
+        }
+     }
+     @media screen and (max-width:620px){
+        .sideBar2{
+            margin-top: 160%;
+          }
+     }
+     @media screen and (max-width:585px){
+        .sideBar2{
+            margin-top: 175%;
+        }
+
+     }
+     @media screen and (max-width:555px){
+        .sideBar2{
+            margin-top: 185%;
+          }
+          .history{
+            width: 98%;
+            gap: 25px;
+            font-size: small;
+        }
+        .paymentHistory{
+            width: 98%;
+            gap: 25px;
+            font-size: small;
+        }
+        .historyBox{
+            width: 98%;
+            font-size:x-small;
+           font-weight: 600;
+            gap: 0px;
+          }
+          #firstName{
+            width: 250px;
+          }
+     }
+     @media screen and (max-width:520px){
+        .historyBox{
+            width: 98%;
+            font-size:xx-small;
+           font-weight: 700;
+            gap: 0px;
+          }
+          .sideBar2{
+            margin-top: 195%;
+          }
+         
+          .history{
+            width: 98%;
+            gap: 15px;
+            font-size: small;
+        }
+        .paymentHistory{
+            width: 98%;
+            gap: 15px;
+            font-size: small;
+        }
+     }
+     @media screen and (max-width:488px){
+        .sideBar2{
+            margin-top: 205%;
+          }
+          .history{
+            width: 98%;
+            gap: 10px;
+            font-size: small;
+        }
+        .paymentHistory{
+            width: 98%;
+            gap: 10px;
+            font-size: small;
+        }
+         
+     }
+     @media screen and (max-width:465px){
+        .sideBar2{
+            margin-top: 220%;
+          }
+          .history{
+            width: 98%;
+            gap: 15px;
+            font-size:x-small;
+            font-weight: 900;
+        }
+        .paymentHistory{
+            width: 98%;
+            gap: 15px;
+            font-size:x-small;
+            font-weight: 900;
+        }
+        .historyBox{
+            width: 98%;
+            font-size:xx-small;
+           font-weight: 700;
+            gap: 2px;
+          }
+         
+     }
+
+    /* .Name{
+        font-size: small;
+    } */
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    body{
+        background-color:#94beed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .login{
+        width: 300px;
+        height: 350px;
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(183, 180, 180);
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+    .login h1{
+        margin-bottom: 40px;
+    }
+    .inputBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #email{
+        border: none;
+        height: 40px;
+        width: 200px;
+        border-radius: 20px;
+        margin: 10px;
+        text-align: center;
+    }
+    #password{
+        border: none;
+        height: 40px;
+        width: 200px;
+        border-radius: 20px;
+        margin: 10px;
+        text-align: center;
+    }
+    input::placeholder{
+        color: black;
+        font-weight: 600;
+    }
+   a{
+        border: none;
+        height: 30px;
+        width: 150px;
+        border-radius: 20px;
+        margin: 10px;
+        text-align: center;
+        color: black;
+        font-weight: 600;
+        cursor: pointer;
+        background-color: blanchedalmond;
+    }
+   a:hover{
+        background-color: rgb(198, 62, 89);
+
+    }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h1>Login Here</h1>
+        <div class="inputBox">
+            <input type="text" name="" id="email" placeholder="Enert emaio or mobile">
+            <input type="password" name="" id="password" placeholder="Enter Password">
+            <a href="./index.html" id="submit">Login</a>
+        </div>
+    </div>
+    <script>
+        const button = document.getElementById("submit")
+        button.addEventListener('click', ()=>{
+            const Email = document.getElementById("email").value
+            const Password = document.getElementById("password").value
+            if(Email == "" && Password == ""){
+                alert("Please enter email and password")
+            }
+            else{
+                alert("Login Successfull")
+                
+            }
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission form</title>
+   
+   <link rel="stylesheet" href="./style.css">
+     
+<script src="https://kit.fontawesome.com/f4fc5bb508.js" crossorigin="anonymous"></script>
+
+<!-- {{!--     
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">  --}} -->
+</head>
+<body>
+    <!-- <form action="sendMsg" method="post"> -->
+        <div class="container">
+            <div id="sideBar">
+                <div class="bardas">
+                <p id="bars"> <i class="fa-solid fa-bars"></i></p>
+                <p id="Das">Das...</p>
+                </div>
+                <div class="barpage">
+                <p id="bar"><i class="fa-solid fa-earth-americas"></i></p>
+                <p id="Page">Pag...</p>
+                </div>  
+                <div class="setting">
+                    <p id="user-minus"><i class="fa-solid fa-user-minus"></i></p>
+                    <p id="chalkboard-user"><i class="fa-solid fa-user-nurse"></i></p>
+                    <p><i class="fa-solid fa-users"></i></p>
+                    <p><i class="fa-solid fa-square-poll-horizontal"></i></p>
+                    <p><i class="fa-regular fa-square-minus"></i></p>
+                    <p><i class="fa-solid fa-gear"></i></p>
+                </div>
+            </div>
+
+
+           <div class="main">
+              <div class="dashboard">
+                   <p><i id="dash" class="fa-solid fa-table-columns"></i>Dashboards</p>
+                    <i id="squar" class="fa-regular fa-square"></i>
+              </div>
+                 <h3 class="Text">Available Records</h3>
+              <div class="box">
+                  <div class="student">
+                      <label for="">Total Student</label>
+                     <h2>250</h2>
+                    
+                    </div>
+                  <div class="employee">
+                       <label for="">Total Employee</label>
+                       <h2>50</h2>
+                    </div>
+                    <div class="fee">
+                          <label for="">Fee Paid</label>
+                        <div class="paid">
+                           <h2>200/400</h2>
+                           <p>11.01%</p>
+                        </div>
+                    
+                    </div>
+                   <div class="passed">
+                         <label for="">Student Passed</label>
+                      <div class="pass">
+                           <h2>239/500</h2>
+                          <p>11.01%</p>
+                       </div>
+                  
+                    </div>
+                </div>
+             <!-- </div> -->
+
+                <h3 class="Qsearch">Quick Search</h3>
+
+                <div class="searchBox">
+                
+                        <i id="down" class="fa-solid fa-caret-down"></i>
+                   
+                        <h4 id="text"> <i class="fa-solid fa-circle-chevron-down"></i>Search Student</h4>
+                      
+                    
+                       <div class="inputBox">
+                         <input type="text" class="inputSearch" name="" id="" placeholder="Search By Student Name" >
+                         <input type="text" class="inputSearch" name="" id="" placeholder="Select Class">
+                         <input type="text" class="inputSearch" name="" id="" placeholder="Search By Roll No ">
+                        <input type="button" class="inputSearch" value="Search" placeholder="Search" id="searchBtn">
+
+                        </div>
+                        <div class="hBox">
+                           <div class="history">
+                            <h4 >Name</h4>
+                            <h4 >Class</h4>
+                            <h4 >Fathers Name</h4>
+                            <h4 >Roll No.</h4>
+                            <h4 >Class Teacher</h4>                    
+                          </div>
+                          <div class="historyBox">
+                           <p class="Name">Prince Kumar</p>
+                            <p class="Class">6A</p>
+                           <p class="Father">Aman Singh</p>
+                           <p class="Roll">1234567</p>
+                          <p class="Teacher">Ashutosh Ray</p>
+                          <i id="info" class="fa-solid fa-circle-info"></i>
+                          </div>
+                        </div>
+                          <hr class="hr">
+                          <hr class="hr">
+
+                          <hr class="hr">
+                        <div class="box2">
+                     
+                          <h4 id="text"><i  class="fa-solid fa-circle-info"></i> Recent Fee Update</h4>
+
+                          <div class="feeUpdate">
+                             <div class="searchName">
+                                <input type="text" name="" id="" placeholder="Search By Student Name" >
+                                <i class="fa-regular fa-calendar-days"></i>
+                             </div>
+                             <div class="paymentHistory">
+                              <h4>Name</h4>
+                              <h4>Class</h4>
+                               <h4>Deposit</h4>
+                               <h4>Date Of Deposition</h4>
+                               <h4>Deposited by</h4>
+                             </div>
+                             <div class="historyBox">
+                                <p class="Name">Prince Kumar <br> S/o Mr Ramesh Kumar</p>
+                                <p class="Class">6A</p>
+                                <p class="Father">7000</p>
+                                <p class="Date ">20/01/2024</p>
+                                <p class="Teacher">Prince Kumar</p>
+                                <i id="info" class="fa-solid fa-circle-info"></i>
+                        
+                             </div>
+                               <hr>
+                               <hr>
+                               <hr>
+                               <hr>
+                               <hr>
+
+
+                          </div>
+                        </div>
+                
+                
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="sideBar2">
+              <div class="topBar">
+               <p> <i class="fa-solid fa-user"></i>KPS</p>
+               <p><i class="fa-regular fa-circle-xmark"></i></p>
+              </div>
+              <hr>
+            <div class="sidebar3">
+              <div class="dashboards">
+              <h5>Dashboards</h5>
+                    <div class="Main"><p i><i class="fa-solid fa-circle"></i>Main</p></div>
+               <p><i class="fa-solid fa-magnifying-glass"></i>Search</p>
+              </div>
+              <div class="pages" id="Pages">
+               
+                    <p>Pages</p>
+                    <h5 id="drop"><i class="fa fa-sort-desc" aria-hidden="true"></i><i class="fa-solid fa-user-minus"></i>Setup</h5>
+                    <ul id="list">
+                        <li><a id="link" href="#container2">Student</a></li> 
+                        <li><a  id="" href="">Employee</a></li>
+                        <li> <a  id="" href="">Certificate</a></li>
+                        <li><a  id="" href="">School</a></li> 
+                     
+                     </ul>
+                     <p><i class="fa-solid fa-user-tie"></i>Student</p>
+                     <p><i class="fa-solid fa-users"></i>Employee</p>
+                     <p><i class="fa-brands fa-square-dribbble"></i>Reports</p>
+                     <p><i class="fa-solid fa-user-pen"></i>Certificates</p>
+                     <p><i class="fa-regular fa-comments"></i>Account</p>
+                     <p><i class="fa-solid fa-gears"></i>Setting</p> 
+              </div>
+            </div>
+              <p id="ProSync"><i class="fa-solid fa-bolt"></i>ProSync</p>
+
+          </div>
+
+         <div class="container2" id="container2">
+            <div id="sideBar">
+                <div class="bardas">
+                <p id="bars"> <i class="fa-solid fa-bars"></i></p>
+                <p id="Das">Das...</p>
+                </div>
+                <div class="barpage">
+                <p id="bar"><i class="fa-solid fa-earth-americas"></i></p>
+                <p id="Page">Pag...</p>
+                </div>  
+                <div class="setting">
+                    <p id="user-minus"><i class="fa-solid fa-user-minus"></i></p>
+                    <p id="chalkboard-user"><i class="fa-solid fa-user-nurse"></i></p>
+                    <p><i class="fa-solid fa-users"></i></p>
+                    <p><i class="fa-solid fa-square-poll-horizontal"></i></p>
+                    <p><i class="fa-regular fa-square-minus"></i></p>
+                    <p><i class="fa-solid fa-gear"></i></p>
+                </div>
+               </div>
+           <div class="mainContainer">
+              <div class="dashboard">
+                   <p><i id="dash" class="fa-solid fa-user-minus"></i>Setup/Students</p>
+                    <i id="squar" class="fa-regular fa-square"></i>
+              </div>
+                 <h3>Student Admission Form</h3>
+              <div class="Box">
+                  <div class="branch">
+                     <label for="branch">Please Select Branch</label>
+                     <select name="branch" id="branch">
+                        <option value="">CSE</option>
+                        <option value="">ME</option>
+                        <option value="">CIVEL</option>
+                        <option value="">EE</option>
+                     </select> 
+                  </div>
+                    <div class="registration">
+                        <label for="">Registration Number*</label>
+                        <input type="text">
+                    </div>
+                    <div class="serial">
+                          <label for="">S.No*</label>
+                       <input type="text">
+                    
+                    </div>
+                   <div class="photo">
+                         <label for=""> Photo of the Student</label>
+                      <button id="JPGbtn">Upload JPG/PNG</button>
+                  
+                    </div>
+               </div>
+                <!-- </div> -->
+
+
+               <div class="information">
+                        <h4 id="text">Student information</h4>
+                     <div class="inputBox">
+                        <div class="fName">
+                         <label for="name">First Name</label>
+                         <input type="text" name="" id="firstName" >
+                        </div>
+                        <div class="lName">
+                         <label for="">Last Name</label>
+                         <input type="text" name="" id="firstName" >
+                        </div>
+                        <div class="DOB">
+                         <label for="">Date of Birth</label>
+                         <input type="date" name="" id="firstName" >
+                        </div>
+                        <div class="POB">
+                         <label for="">Place of Birth</label>
+                         <input type="text" name="" id="firstName" >
+                        </div>
+                        <div class="Gender">
+                         <label for="">Gender</label>
+                         <input type="text" name="" id="firstName" >
+                        </div>
+                        <div class="Caste">
+                         <label for="">Caste</label>
+                         <input type="text" name="" id="firstName" >
+                        </div>
+                        <div class="Category">
+                         <label for="">Category</label>
+                         <input type="text" name="" id="firstName" >
+                        </div>
+                        <div class="bGroup">
+                         <label for="">Blood Group</label>
+                         <input type="text" name="" id="firstName" >
+                        </div>
+                        <div class="height">
+                         <label for="">Height</label>
+                         <input type="text" name="" id="firstName" >
+                        </div>
+                        <div class="weight">
+                         <label for="">Weight</label>
+                         <input type="text" name="" id="firstName"  >
+                        </div>
+                     </div>
+               </div>
+                      <div class="pInformation">
+                           <h3>Parent Information</h3>
+                      </div>
+                      <div class="psInformation">
+                           <h4>Previous School Information</h4>
+                           <div class="radio">
+                              <div class="paragraph">
+                               <p>Weither Transfer Certificate Submitted <span>?</span></p>
+                               <div class="Yes">
+                               <label for="">Yes</label>
+                               <input type="radio" name="" id="">
+                              </div>
+                              <div class="No">
+                               <label for="">No</label>
+                               <input type="radio" name="" id="">
+                              </div>
+                              </div>
+                              <button id="pdfBtn">Upload Pdf</button>
+                           </div>
+                      </div>
+                      <div class="fees">
+                           <div class="Radio">
+                              <p>Is there any fee exception <span>?</span></p>
+                              <label for="">Yes</label>
+                              <input type="radio" name="" id="">
+                              <label for="">No</label>
+                              <input type="radio" name="" id="">
+                           </div>
+                           <h5>Fee structured will be added</h5>
+                      </div>
+                      <div class="btn">
+                        <input type="button" value="Submit" id="SubmitBtn">
+
+                      </div>
+                     
+            </div>
+        </div>
+        
+        
+        
+        
+
+
+
+        <!-- {{!-- <input type="text" name="msg" id="" placeholder="enter message ">
+        <input type="submit" value="submit" > --}} -->
+    <!-- </form> -->
+</body>
+<script src="./script.js"></script>
+</html>
